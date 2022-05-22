@@ -18,7 +18,7 @@
 
 // צרו פונקציה שמקבלת מספר כארגומנט ומחזירה מספר רנדומלי
 // function printTheRandomNumber2(number){
-// number = Math.floor(math.random(number)*50)
+// number = Math.floor(math.random()*number)
 // }
 // printTheRandomNumber2(5);
 
@@ -31,7 +31,7 @@
 // function popRandomArray(){
 // var rndArray = [];
 // for(var i = 0 ;i<10 ;i++){
-//     rndArray.push(Math.floor(Math.random()*100))
+//     rndArray.push(Math.floor(Math.random()*101) )
 // }
 // console.log(rndArray)
 // }
@@ -96,7 +96,14 @@
 
 // צרו פונקציה שמייצרת מערך עם גודל רנדומלי בין 0 ל364 וערכים רנדומליים
 // בין 0ל 873
+function makeRundomNubmers(){
+var array1 = []
+var rand = Math.floor(Math.random()*365)
+array1 = rand
 
+
+}
+makeRundomNubmers();
 
 
 
