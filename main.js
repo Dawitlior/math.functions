@@ -127,10 +127,10 @@
 function getIndexFromUser(){
 var user = prompt("type your number")
 var userIndex = Math.floor(Math.random()*user.length)
-userIndex.toUpperCase([i])
-
+// userIndex.toUpperCase([i])
+user[userIndex].toUpperCase();
 }
-getIndexFromUser();
+console.log(getIndexFromUser());
 
 
 // צרו פונקציה המקבלת מהמשתמש 2 שמות ו2 גילאים מייצרת מספר רנדומלי
