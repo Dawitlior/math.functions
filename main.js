@@ -121,12 +121,16 @@
 
 
 
-
-
 // צרו פונקציה המקבלת מהמשתמש שם מייצרת אינדקס רנדומלי
 // ומחליפה תו בשם לאות גדולה על פי האינדקס הרנדומלי
 
+function getIndexFromUser(){
+var user = prompt("type your number")
+var userIndex = Math.floor(Math.random()*user.length)
+userIndex.toUpperCase([i])
 
+}
+getIndexFromUser();
 
 
 // צרו פונקציה המקבלת מהמשתמש 2 שמות ו2 גילאים מייצרת מספר רנדומלי
