@@ -123,7 +123,7 @@
 
 // צרו פונקציה המקבלת מהמשתמש שם מייצרת אינדקס רנדומלי
 // ומחליפה תו בשם לאות גדולה על פי האינדקס הרנדומלי
-
+// NOT FINISH
 function getIndexFromUser(){
 var user = prompt("type your number")
 var userIndex = Math.floor(Math.random()*user.length)
