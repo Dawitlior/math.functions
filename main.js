@@ -96,20 +96,29 @@
 
 // צרו פונקציה שמייצרת מערך עם גודל רנדומלי בין 0 ל364 וערכים רנדומליים
 // בין 0ל 873
-function makeRundomNubmers(){
-var array1 = []
-var rand = Math.floor(Math.random()*365)
-array1 = rand
+// function makeRundomNubmers(){
+//     var tempArray = []
+//     for(var i = 0 ; i<Math.floor(Math.random()*365);i++){
+//         var rand = Math.floor(Math.random()*874)
+//         tempArray.push(rand)
+//     }
+// return tempArray ; 
 
-
-}
-makeRundomNubmers();
+// }
+// console.log(makeRundomNubmers());
 
 
 
 
 // צרו פונקציה המקלת מערך ומייצרת אינדקס רנדומלי 
 // הפונקציה מדפיסה איבר מהמערך על פי האינדקס הרנדומלי
+// function getTheRandomNumber(array){
+//     var index = Math.floor(Math.random()*array.length)
+//     console.log(array[index])
+
+// }
+// getTheRandomNumber([4,3,6,5,4,6,7,8,9,7,5,43]);
+
 
 
 
