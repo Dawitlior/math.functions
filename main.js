@@ -124,13 +124,13 @@
 // צרו פונקציה המקבלת מהמשתמש שם מייצרת אינדקס רנדומלי
 // ומחליפה תו בשם לאות גדולה על פי האינדקס הרנדומלי
 // NOT FINISH
-function getIndexFromUser(){
-var user = prompt("type your number")
-var userIndex = Math.floor(Math.random()*user.length)
-// userIndex.toUpperCase([i])
-user[userIndex].toUpperCase();
-}
-console.log(getIndexFromUser());
+// function getIndexFromUser(){
+// var user = prompt("type your number")
+// var userIndex = Math.floor(Math.random()*user.length)
+// // userIndex.toUpperCase([i])
+// user[userIndex].toUpperCase();
+// }
+// console.log(getIndexFromUser());
 
 
 // צרו פונקציה המקבלת מהמשתמש 2 שמות ו2 גילאים מייצרת מספר רנדומלי
