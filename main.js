@@ -18,7 +18,7 @@
 
 // צרו פונקציה שמקבלת מספר כארגומנט ומחזירה מספר רנדומלי
 // function printTheRandomNumber2(number){
-// number = Math.floor(math.random()*number)
+// number = Math.floor(math.random()*10)
 // }
 // printTheRandomNumber2(5);
 
@@ -138,6 +138,23 @@
 // אם השמות מתחילים באותה אות היא מדפיסה הודעה עם האות
 // אחרת היא מדפיסה את הגילים
 
+function getFromUserAndPringTheBiggest(){
+    var userName1 = prompt("type your name")
+    var userName = prompt("type your name")
+    var userAge1 = +prompt("type your age")
+    var userAge = +prompt("type your age")
+    var rnd = Math.floor(Math.random()*21)
+    if(userName[0].toLowerCase() == userName1[0].toLowerCase()){
+        console.log(rnd)
+    }
+    if(userName[userName.length-1].toLowerCase() == userName1[userName1.length-1].toLowerCase()){
+        console.log("this is just a messeg" + userName.length-1)
+    }
+    else{
+        console.log("first age:" + userAge1 + ",second age:" + userAge)
+    }
+}
+getFromUserAndPringTheBiggest();
 
 
 
